@@ -15,7 +15,7 @@ At the most basic level, Manifolds are objects that locally behave "normally". F
   <figcaption>A model planet</figcaption>
 </figure>
 <figure>
-  <div class="grid wide-two">
+  <div class="grid two-column">
     <img width="260" height="260" alt="Map_Distorted_Angles" src="Map_Distorted_Angles.png" />
     <img width="260" height="260" alt="Map_Distorted_Area" src="Map_Distorted_Area.png" />
   </div>
@@ -31,7 +31,7 @@ Manifolds can also exist in higher dimensions, and in that case, the maps would 
 
 
 <figure>
-  <div class="grid wide-two">
+  <div class="grid two-column">
   <figure>
     <img width="240" height="180" alt="Cylinder" src="Cylinder.png" />
     <figcaption>An example of an orientable surface</figcaption>

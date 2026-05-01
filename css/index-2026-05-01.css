@@ -491,7 +491,7 @@ details {
   align-items: end;
 }
 
-.grid.wide-two {
+.two-column.grid {
 	grid-template-columns: repeat(2, 1fr);
 }
 

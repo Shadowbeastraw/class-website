@@ -58,7 +58,7 @@ Creating Pasta Designs
 ----------------------
 
 <figure>
-  <div class="grid wide-two narrow-one">
+  <div class="grid two-column narrow-one">
     <img src="penne2.png" alt="Pen 2">
     <img src="penne1.png" alt="Pen 1">
   </div>
