@@ -10,9 +10,9 @@ layout: layouts/blog.njk
 
 Imagine you’re in a situation in which you spent your entire life working on this machine that allows you to transfer one consciousness from one body to another. After testing on rats, you make this machine completely safe for living things. You call over one of your lab partners who has been helping you throughout this entire process, and you finally use it on the two of you. Of course, as the creator of this machine, you should be one of the first people to be tested on it.
 
-https://gist.github.com/user-attachments/assets/61dd8e53-0ca4-4e67-9504-5e9aa911ba9b
+<video controls src="animation.mp4" alt=""></video>
 
-And it worked. It actually worked! The consciousness transfer completely worked as you look at your own body through the eyes of your lab partner, and after a bit of fun in your new body, you call it enough and decide to go back to your body. However, it turns out there has been a slight oversight. The machine does not work in reverse, which means as soon as one consciousness goes from one body to another, it cannot move back. Okay, no biggie, right? We just have to call over one more person… right? Well let us gather the information of what we do know. 
+And it worked. It actually worked! The consciousness transfer completely worked as you look at your own body through the eyes of your lab partner, and after a bit of fun in your new body, you call it enough and decide to go back to your body. However, it turns out there has been a slight oversight. The machine does not work in reverse, which means as soon as one consciousness goes from one body to another, it cannot move back. Okay, no biggie, right? We just have to call over one more person… right? Well let us gather the information of what we do know.
 
 What is limiting us and how exactly does the machine work? What are the rules of our machine? And why didn’t you double-check your work?!
 
@@ -22,8 +22,8 @@ I ended off the intro with the idea of just adding one more person, so let’s f
 
 Your mind (mind A) is now in your partner’s body (which we can label as 2), and your partner’s mind (mind B) is in your body (which we can say is 1). Now we add in body 3 with mind C from a helpful volunteer.
 
-So we went from  
-(A1)(B2) → (A2)(B1)  
+So we went from
+(A1)(B2) → (A2)(B1)
 
 as we established before, we cannot just swap A and B back. So with a little help from another person C and start using swaps with them, we begin to see that we can slowly move minds back into their correct bodies without repeating any swaps. With enough steps, we can eventually return everyone to their original body.
 
@@ -35,12 +35,12 @@ At this point, there are no combinations that will allow us to see any further p
 
 Now we can continue:
 
-(A3)(B1)(C2)(D4) → (A3)(B4)(C2)(D1)  
-(A3)(B4)(C2)(D1) → (A1)(B4)(C2)(D3)  
+(A3)(B1)(C2)(D4) → (A3)(B4)(C2)(D1)
+(A3)(B4)(C2)(D1) → (A1)(B4)(C2)(D3)
 Hey! Person A now has their original conciousness! That's one down!
 
-(B4)(C2)(D3) → (B2)(C4)(D3)          
-Another one down! 
+(B4)(C2)(D3) → (B2)(C4)(D3)
+Another one down!
 
 
 (C4)(D3) → (C3)(D4)
@@ -55,8 +55,8 @@ Since we are looking at making this for a more general case, we will say there i
 
 With the limitations and the importance of the arrangement of our bodies, we can determine that we are working with a permutation problem. So we will suppose that π ∈ Sₙ, and it can be written as a product of distinct transpositions.
 
-Then it follows that there exists some σ ∈ Sₙ₊₂ such that  
-σπ = id  
+Then it follows that there exists some σ ∈ Sₙ₊₂ such that
+σπ = id
 
 which represents everyone returning to their original bodies.
 
@@ -66,7 +66,7 @@ Let us shuffle the minds of n bodies as much as we would like, and write these c
 
 Let us add a visual to understand what is happening:
 
-(A  B  C  D)  
+(A  B  C  D)
 (2  1  4  3)
 
 which can be written in cycle notation as:
@@ -75,7 +75,7 @@ which can be written in cycle notation as:
 
 With the interpretation of cycle notation in our heads, we can now better understand how to fix the situation without having to use trial and error. For each cycle, we use the introduction of two people X and Y, who act as temporary placeholders that allow us to move each mind step by step without fear of repeating any swaps.
 
-So the important idea is not just the exact pattern  
+So the important idea is not just the exact pattern
 (AX)(BY)(CX)(DY),
 
 but that X and Y let us break the cycle apart and move each mind back into its correct body one step at a time. X helps pull minds out of the cycle, and Y helps put them back correctly.
